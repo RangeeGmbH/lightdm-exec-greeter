@@ -1,0 +1,5 @@
+lightdm-exec-greeter (1.0.0-0rangeeos1) rangeeos; urgency=medium
+
+  * Initial Release
+
+ -- Justin Braun <jbraun@rangee.com>  Fri, 19 Jun 2020 11:53:00 -0400

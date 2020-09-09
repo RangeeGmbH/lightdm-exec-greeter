@@ -1,0 +1,8 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: LightDM Exec Greeter
+Upstream-Contact: Justin Braun <jbraun@rangee.com>
+Source: http://gitlab.rangee.local/RangeeGmbH/RangeeOS/lightdm-exec-greeter
+
+Files: *
+Copyright: Justin Braun
+License: Proprietary

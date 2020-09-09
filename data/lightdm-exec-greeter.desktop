@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=LightDM Exec Greeter
+Comment=LightDM Exec Greeter
+Exec=lightdm-exec-greeter
+Type=Application

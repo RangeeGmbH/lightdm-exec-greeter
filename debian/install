@@ -1,0 +1,2 @@
+data/lightdm-exec-greeter.conf /etc/lightdm/
+data/lightdm-exec-greeter.desktop /usr/share/xgreeters/

@@ -1,0 +1,20 @@
+Source: lightdm-exec-greeter
+Section: x11
+Priority: optional
+Maintainer: Justin Braun <jbraun@rangee.com>
+Build-Depends: debhelper (>= 9),
+               pkg-config,
+               glib-2.0,
+               gobject-2.0,
+               liblightdm-gobject-1-dev
+Standards-Version: 1.0.0
+Homepage: http://gitlab.rangee.local/RangeeGmbH/RangeeOS/lightdm-exec-greeter
+Vcs-Git: http://gitlab.rangee.local/RangeeGmbH/RangeeOS/lightdm-exec-greeter.git
+Vcs-Browser: http://gitlab.rangee.local/RangeeGmbH/RangeeOS/lightdm-exec-greeter
+
+Package: lightdm-exec-greeter
+Provides: lightdm-greeter
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: a LightDM greeter for exitcode controlled autologin
+ ultra lightweight, no gui, no cli, no nothing
