@@ -10,6 +10,3 @@ override_dh_auto_configure:
 override_dh_auto_clean:
 	make maintainer-clean
 	dh_auto_clean
-
-override_dh_builddeb:
-	dh_builddeb $@ --destdir=.
